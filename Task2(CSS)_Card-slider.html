@@ -4,7 +4,8 @@
 		<link rel="stylesheet" type="text/css" href="Task2(CSS).css">
 	</head>
 
-	<body>
+	<body onload="myFunction()">
+		<div id="loading"></div>
 		<section class="container">
 
 
@@ -46,5 +47,14 @@
 			</div>
 
 		</section>
+
+		
+<script>
+	var preloader = document.getElementById('loading');
+	function myFunction()
+	{
+		preloader.style.display = 'none';
+	}
+</script>
 	</body>
 </html>
